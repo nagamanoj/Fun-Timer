@@ -1,0 +1,73 @@
+h2 {
+    display: inline-block;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: black;
+    background-blend-mode: lighten;
+}
+
+.btn {
+    background-color: black;
+    font-size: 25px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn:active {
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    outline-style: none;
+}
+
+.btn:focus {
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    outline-style: none;
+}
+
+.break {
+    float: left;
+}
+
+.work {
+    float: right;
+}
+
+#display {
+    display: inline-block;
+    font-display: block;
+    font-size: 60px;
+}
+
+#group {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 100%;
+    border-color: white;
+    margin: auto;
+    text-align: center;
+    width: 340px;
+    height: 340px;
+    padding-top: 20px;
+    padding: 5px;
+}
+
+#start:hover {
+    color: lawngreen;
+}
+
+#reset:hover {
+    color: orangered;
+}

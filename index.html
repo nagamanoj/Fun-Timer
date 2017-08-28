@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Pomodoro</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container text-center col-xs-6 col-xs-offset-3">
+        <h1 style="text-align:center">Pomodoro clock</h1>
+        <div class="break">
+
+            <h2>Break Time</h2><br/>
+            <button id="breakMinus" class="btn">-</button>
+            <h2 id="breakTime">5</h2>
+            <button id="breakPlus" class="btn">+</button><br/><br/>
+        </div>
+        <div class="work">
+            <h2 id="session">Session Time</h2><br/>
+            <button id="workMinus" class="btn">-</button>
+            <h2 id="workTime">25</h2>
+            <button id="workPlus" class="btn">+</button>
+        </div><br/><br/><br/><br/><br/><br/>
+        <div id="group">
+            <h2 id="work">Session</h2>
+            <h2 id="break">Break</h2><br/>
+            <h3 id="start">Start</h3>
+
+            <br/><br/>
+            <h2 id="display">00:00</h2>
+            <h3 id="reset">Reset</h3>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
